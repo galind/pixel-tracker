@@ -5,8 +5,6 @@ import requests
 
 app = Flask(__name__)
 
-host = None
-port = None
 webhook_url = None
 
 
@@ -31,4 +29,4 @@ def pixel():
 
 
 if __name__ == '__main__':
-    app.run(host=host, port=port)
+    app.run()
